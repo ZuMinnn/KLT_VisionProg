@@ -1,0 +1,19 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Jupyter notebooks should use LF
+*.ipynb text eol=lf
+
+# Python files
+*.py text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# Denote binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary
+*.avi binary
+*.gif binary
